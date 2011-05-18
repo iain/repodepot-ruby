@@ -1,7 +1,5 @@
-
-require 'rspec'
-require_relative 'code_event.rb'
-require_relative 'repository.rb'
+require_relative '../lib/code_event.rb'
+require_relative '../lib/repository.rb'
 
 describe "RepoDepot::Repository" do
   it "should not populate classes when not given events" do

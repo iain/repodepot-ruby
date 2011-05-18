@@ -1,6 +1,4 @@
-
-require 'rspec'
-require_relative 'class.rb'
+require_relative '../lib/class.rb'
 
 describe "RepoDepot::Class" do
   it "should have complexity zero if it has no events" do

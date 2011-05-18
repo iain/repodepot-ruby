@@ -1,7 +1,5 @@
-
-require 'rspec'
-require_relative 'code_event.rb'
-require_relative 'method.rb'
+require_relative '../lib/code_event.rb'
+require_relative '../lib/method.rb'
 
 describe "RepoDepot::Method" do
   it "should generate a life line" do
